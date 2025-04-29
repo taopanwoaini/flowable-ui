@@ -21,12 +21,13 @@ FLOWABLE.TOOLBAR_CONFIG = {
             "cssClass" : "editor-icon editor-icon-save",
             "action" : "FLOWABLE.TOOLBAR.ACTIONS.saveModel"
         },
-        {
-			"type" : "button",
-			"title" : "TOOLBAR.ACTION.VALIDATE",
-			"cssClass" : "glyphicon glyphicon-ok",
-			"action": "FLOWABLE.TOOLBAR.ACTIONS.validate"
-		},
+        //TODO
+        // {
+		// 	"type" : "button",
+		// 	"title" : "TOOLBAR.ACTION.VALIDATE",
+		// 	"cssClass" : "glyphicon glyphicon-ok",
+		// 	"action": "FLOWABLE.TOOLBAR.ACTIONS.validate"
+		// },
         {
             "type" : "separator",
             "title" : "",
@@ -175,12 +176,13 @@ FLOWABLE.TOOLBAR_CONFIG = {
             "cssClass" : "toolbar-separator",
             "disableInForm" : true
         },
-        {
-            "type" : "button",
-            "title" : "TOOLBAR.ACTION.HELP",
-            "cssClass" : "glyphicon glyphicon-question-sign",
-            "action" : "FLOWABLE.TOOLBAR.ACTIONS.help"
-        }
+        //TODO
+        // {
+        //     "type" : "button",
+        //     "title" : "TOOLBAR.ACTION.HELP",
+        //     "cssClass" : "glyphicon glyphicon-question-sign",
+        //     "action" : "FLOWABLE.TOOLBAR.ACTIONS.help"
+        // }
     ],
     
     "secondaryItems" : []

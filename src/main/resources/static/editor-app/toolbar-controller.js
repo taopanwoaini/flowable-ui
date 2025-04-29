@@ -65,7 +65,11 @@ angular.module('flowableModeler')
             };
             FLOWABLE.eventBus.dispatch(event.type, event);
         };
-        
+
+        $scope.closeWindow = function (){
+            window.close()
+        };
+
         // Click handler for secondary toolbar buttons
         $scope.toolbarSecondaryButtonClicked = function(buttonIndex) {
             var buttonClicked = $scope.secondaryItems[buttonIndex];
